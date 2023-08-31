@@ -343,7 +343,7 @@ PODS:
   - React-jsinspector (0.72.4)
   - React-logger (0.72.4):
     - glog
-  - react-native-safe-area-context (4.7.1):
+  - react-native-safe-area-context (3.3.2):
     - React-Core
   - React-NativeModulesApple (0.72.4):
     - React-callinvoker
@@ -455,6 +455,10 @@ PODS:
   - RNScreens (3.24.0):
     - React-Core
     - React-RCTImage
+  - RNSVG (12.1.1):
+    - React
+  - RNVectorIcons (10.0.0):
+    - React-Core
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -524,6 +528,8 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNSVG (from `../node_modules/react-native-svg`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -624,6 +630,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-async-storage/async-storage"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -660,7 +670,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: bc8a9ad812a2c88b3a41c08b5f4b3ed32d6d4766
   React-jsinspector: aaed4cf551c4a1c98092436518c2d267b13a673f
   React-logger: da1ebe05ae06eb6db4b162202faeafac4b435e77
-  react-native-safe-area-context: 9697629f7b2cda43cf52169bb7e0767d330648c2
+  react-native-safe-area-context: 584dc04881deb49474363f3be89e4ca0e854c057
   React-NativeModulesApple: 759309419da76ef4c9f331968b840022ee2aa5b1
   React-perflogger: 496a1a3dc6737f964107cb3ddae7f9e265ddda58
   React-RCTActionSheet: 02904b932b50e680f4e26e7a686b33ebf7ef3c00
@@ -680,10 +690,12 @@ SPEC CHECKSUMS:
   ReactCommon: 2635a013764a291989765d6ec136513911f478c6
   RNCAsyncStorage: c913ede1fa163a71cea118ed4670bbaaa4b511bb
   RNScreens: b21dc57dfa2b710c30ec600786a3fc223b1b92e7
+  RNSVG: 551acb6562324b1d52a4e0758f7ca0ec234e278f
+  RNVectorIcons: 8b5bb0fa61d54cd2020af4f24a51841ce365c7e9
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 3efc43e0d48686ce2e8c60f99d4e6bd349aff981
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 4c3f348a2b33be40633616bde7cd7f9fe206ece4
+PODFILE CHECKSUM: 831b143e6011131c079a281bcfadde46b4c0ff55
 
 COCOAPODS: 1.12.1
